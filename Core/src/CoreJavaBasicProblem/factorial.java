@@ -1,23 +1,33 @@
-package CoreJavaBasicProblem;
+package coreJavaBasicProblem;
+
+import java.util.Scanner;
 
 public class factorial {
 	
 	public static void main(String[] args) {
 		
-	int	count = 4;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the number");
+		int number = sc.nextInt();
+		
+	int	count = 1;
+//	int number =3;
 	
-	if(count<=0)
+	if(number<0)
 	{
-		System.out.println("factorial of given number is 0");
+		System.out.println("factorial of given negative number "+ number +" is undefined");
 		
 		
-	}else {
+	}else if(number==0) {
+		System.out.println("factorial of given number " + number + " is 0" );
+	}else{
+	
 		
-		for(int i=1;i<=3;i++)
+		for(int i=1;i<=number;i++)
 		{
 			count = count*i;
 		}
-		 System.out.println("factorial of given numner is =" + count);
+		 System.out.println("factorial of given "+number+ " is =" + count);
 		}
 	}
 		
