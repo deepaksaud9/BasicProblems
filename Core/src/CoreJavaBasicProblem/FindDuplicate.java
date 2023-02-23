@@ -12,6 +12,7 @@ public class FindDuplicate {
 		{
 			String current = Character.toString(sentence.charAt(i));
 			
+		
 			if(characters.contains(current)) 
 			{
 				if(!duplicates.contains(current))
