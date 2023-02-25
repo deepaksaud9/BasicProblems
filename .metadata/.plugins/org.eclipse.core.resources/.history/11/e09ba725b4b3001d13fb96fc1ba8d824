@@ -1,0 +1,19 @@
+package ReverseString;
+
+public class ReverseString {
+	public static void main(String[] args) {
+		String str = new String("hello");
+		
+		char[] current = str.toCharArray();
+		String rev=new String("");
+//		String reverse = new String("");
+		for(int i=current.length;i>=0;i--)
+		{
+			 rev = Character.toString(current[i]);
+			
+//			String reverse = Character.toString(current.charAt(i));
+		}System.out.println(rev);
+	}
+	
+
+}

@@ -1,0 +1,24 @@
+package duplicates;
+
+public class FindDuplicates {
+	public static void main(String[] args) {
+		
+		String statement = "hello solti k cha timro khabar";
+		
+		int count = 0;
+		char[] duplicates = statement.toCharArray();
+		for(int i=0;i<duplicates.length;i++)
+		{
+			for(int j=i+1;j<=duplicates.length;j++)
+			{
+				if(duplicates[i]== duplicates[j])
+				{
+					System.out.println(duplicates[j]);
+					count++;
+				}
+				
+			}
+			System.out.println("duplicates are : "+ duplicates[j]);
+		}
+	}
+}

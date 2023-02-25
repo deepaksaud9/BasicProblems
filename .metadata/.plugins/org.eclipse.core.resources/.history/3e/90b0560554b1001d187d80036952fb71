@@ -1,0 +1,41 @@
+package coreJavaBasicProblem;
+
+import java.util.Scanner;
+
+public class VowelCounting {
+	public static void main(String[] args) {
+		
+	
+	 Scanner input = new Scanner(System.in);
+     System.out.println("Enter a list of strings: ");
+     String[] strings = input.nextLine().split("\\s+");
+
+     for (String str : strings) {
+         int vowelNum = 0;
+         for (int i = 0; i < str.length(); i++) {
+             char ch = Character.toLowerCase(str.charAt(i));
+             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                 vowelNum++;
+             }
+         }
+         if (vowelNum == 0) {
+             System.out.println("No Vowels found");
+         } 
+         else {
+             System.out.println(vowelNum);
+         }
+         
+         int result = 0;
+         for(int i=0;i<=str.length();i++)
+         {
+         result =result +vowelNum;
+         
+         }
+         System.out.println(result);
+     }
+     }
+ }
+
+
+
+

@@ -1,0 +1,11 @@
+
+public class PrintOneToHundred {
+
+	public static void main(String[] args) {
+		
+		String a = "A";
+		String b = "A";
+		int a =a/b;
+		System.out.println(a/b);
+	}
+}

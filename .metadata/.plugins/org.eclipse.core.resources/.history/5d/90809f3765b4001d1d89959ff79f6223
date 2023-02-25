@@ -1,0 +1,10 @@
+
+public class PrintOneToHundred {
+
+	public static void main(String[] args) {
+		
+		int one= 'A'/'A';
+		
+		System.out.println();
+	}
+}
