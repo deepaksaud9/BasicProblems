@@ -1,0 +1,16 @@
+package coreJavaBasicProblem;
+
+public class CompareTwoInt {
+
+	public static void main(String[] args) {
+		
+	}
+	public static void compare(Integer input1, Integer input2)
+	{
+		if(input1 == input2)
+		{
+			System.out.println("both are equal");
+		}else {
+			System.out.println("both are not equal");
+			}}
+}
