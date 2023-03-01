@@ -1,0 +1,12 @@
+package stringQuestions;
+
+//how to find length of String in java without using length method
+
+public class StringLength {
+	public static void main(String[] args)
+	{
+		String str = "testing";
+		System.out.println(str.toCharArray().length);
+	}
+
+}

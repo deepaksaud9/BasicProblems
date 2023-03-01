@@ -1,0 +1,7 @@
+package stringQuestions;
+
+//how to find length of String in java without using length method
+
+public class StringLength {
+
+}
