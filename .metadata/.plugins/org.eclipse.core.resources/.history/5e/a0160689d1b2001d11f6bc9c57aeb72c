@@ -1,9 +1,0 @@
-package coreJavaBasicProblem;
-
-public class FindDuplicate {
-
-	public static void main(String[] args) {
-		String sentence = "how many duplicate are there?";
-		System.err.println(sentence.charAt(16));;
-	}
-}
