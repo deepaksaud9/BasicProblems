@@ -1,8 +1,0 @@
-package duplicates;
-
-public class FindDuplicates {
-	public static void main(String[] args) {
-		
-		String statement = "hello solti k cha timro khabar";
-	}
-}

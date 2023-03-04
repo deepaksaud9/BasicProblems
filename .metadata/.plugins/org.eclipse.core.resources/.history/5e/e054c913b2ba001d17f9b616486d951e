@@ -1,0 +1,8 @@
+package stringQuestions;
+
+public class EvenWordDemo {
+	public static void main(String[] args) {
+		String str = "Hell World "
+	}
+
+}
