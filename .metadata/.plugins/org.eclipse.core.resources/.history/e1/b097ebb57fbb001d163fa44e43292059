@@ -1,0 +1,11 @@
+package stringQuestions;
+
+public class SumStrings {
+	
+	public static void main(String[] args) {
+		String a = "111";
+		String b = "222";
+		int sum = Integer.parseInt(a)+Integer.parseInt(b);
+	}
+
+}
