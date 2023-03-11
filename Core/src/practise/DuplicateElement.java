@@ -1,0 +1,29 @@
+package practise;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class DuplicateElement {
+	
+	public static void main(String[] args) {
+		
+		int[] arr = new int[] {1,3,4,6,7,8,9};
+		Set<Integer> uniqueArray = new HashSet<>();
+		boolean isDuplicate=false;
+		
+		for(int i=0;i<arr.length;i++) {
+			if(uniqueArray.contains(arr[i])) {
+				isDuplicate = true;
+				System.out.println("duplicate number is "+arr[i]);
+			}else {
+				uniqueArray.add(arr[i]);
+			}
+		}
+		
+		if(!isDuplicate)
+		{
+			System.out.println("no duplicate found");
+		}
+			
+	}
+}

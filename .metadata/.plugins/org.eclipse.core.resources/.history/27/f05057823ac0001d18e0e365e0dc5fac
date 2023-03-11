@@ -1,0 +1,15 @@
+package practise;
+
+public class Reverse {
+	public static void main(String[] args) {
+		String str = "Deepak";
+		
+		char[] str1 = str.toCharArray();
+		
+		for(int i=str.length(); i<=0; i--) {
+			System.out.println(str);
+		}
+		System.out.println("hello");
+	}
+
+}
