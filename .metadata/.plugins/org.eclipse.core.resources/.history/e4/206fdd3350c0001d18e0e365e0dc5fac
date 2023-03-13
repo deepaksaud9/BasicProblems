@@ -1,0 +1,17 @@
+package practise;
+
+public class Test2 {
+	
+	public static void main(String[] args) {
+		int[] arr = {1,3,4,6,7,8,9,3,5,7,2,9};
+	    boolean isDuplicate = false;
+	    int[] uniqueArr = new int[arr.length];
+	    int[] duplicateNum = new int[arr.length];
+	    int index = 0;
+	    
+	    
+	    for(int i=0;i<arr.length;i++) {
+	    	
+	    }
+	}
+}
