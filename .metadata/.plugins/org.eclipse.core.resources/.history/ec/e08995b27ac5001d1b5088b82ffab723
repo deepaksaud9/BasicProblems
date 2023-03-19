@@ -1,0 +1,40 @@
+package LinkList;
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+
+
+ class ListNode {
+	 int val;
+	 ListNode next;
+	 ListNode(int x){
+		 val = x;
+		 next = null;
+	 }
+ }
+
+public class Solution {
+
+	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+		ListNode dummy_head = new dummy_head;
+	}
+	
+	public static void main(String[] args) {
+		int[] l1= {1,2,3,4,5};
+		int[] l2= {1,2,3,5,7};
+		ListNode(l1,l2);
+		
+	}
+
+	private static void ListNode(int[] l1, int[] l2) {
+		
+		
+	}
+}

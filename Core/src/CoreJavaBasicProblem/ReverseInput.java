@@ -8,23 +8,16 @@ public class ReverseInput {
 	public static void main(String[] args) {
 		
 		System.out.println("enter your String");
-		
 		Scanner scn = new Scanner(System.in);
-		
-	String	rev = scn.next();
+		String	rev = scn.next();
 	
-	String r = reverse(rev);
-	
-		
+		String r = reverse(rev);		
 		System.out.println(r);
 	}
-	
 	//method defined
-	
 	public static String reverse(String s)
 	{
-		char [] letters  = new char[s.length()];
-		
+		char [] letters  = new char[s.length()];	
 		int lettersIndex = 0;
 		
 		for(int i=s.length()-1;i>=0;i--)

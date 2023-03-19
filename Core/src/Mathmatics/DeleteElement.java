@@ -11,11 +11,15 @@ public class DeleteElement {
 		for(int i=0 ,j=0;i<arr.length;i++) {
 			if(i != deleteElement)
 			{
-				newArr[j++]=arr[i];
+				newArr[j]=arr[i];
+				j++;
 			}
 		}
 		arr=newArr;
-		System.out.println(Arrays.toString(arr));
+		for (int i : newArr) {
+			System.out.print(i+",");
+		}
+//		System.out.println(Arrays.toString(arr));
 	}
 	
 	

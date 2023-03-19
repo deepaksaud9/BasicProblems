@@ -1,7 +1,0 @@
-package sorting;
-
-public class AscendingOrder {
-
-	int arr[] = new int[] {6,8,4,2,5};
-	int temp = 0
-}

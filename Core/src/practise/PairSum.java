@@ -15,7 +15,7 @@ public class PairSum {
 		int low = 0;
 		
 		
-		while(low<high) {
+		while(low < high) {
 			if(arr[low]+arr[high]>sum) {
 				high--;
 			}else if(arr[low]+arr[high]<sum) {
