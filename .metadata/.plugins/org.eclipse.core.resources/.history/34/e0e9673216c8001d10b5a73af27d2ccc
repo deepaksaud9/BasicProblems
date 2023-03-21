@@ -119,7 +119,6 @@ public class LL {
 		list.deleteLast();
 		list.printList();
 		list.getSize();
-		System.out.println(list.getSize());
 	}
 
 }
