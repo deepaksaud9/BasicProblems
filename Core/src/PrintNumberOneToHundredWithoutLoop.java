@@ -1,4 +1,4 @@
-
+package src;
 public class PrintNumberOneToHundredWithoutLoop {
 
 	public static void main(String[] args) {

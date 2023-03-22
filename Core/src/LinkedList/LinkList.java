@@ -1,5 +1,4 @@
-package LinkedList;
-
+package src.LinkedList;
 public class LinkList {
 
 	Node head;
@@ -10,10 +9,10 @@ public class LinkList {
 	}
 
 	class Node {
-		String data;
+		int data;
 		Node next;
 
-		Node(String data) {
+		Node(int data) {
 			this.data = data;
 			this.next = null;
 			size++;
@@ -21,7 +20,7 @@ public class LinkList {
 	}
 
 //insertion atFirst and atLast
-	public void addFirst(String data) {
+	public void addFirst(int data) {
 		Node newNode = new Node(data);
 
 		if (head == null) {
@@ -33,7 +32,7 @@ public class LinkList {
 	}
 
 //insertion in atLast Position 
-	public void addLast(String data) {
+	public void addLast(int data) {
 		Node newNode = new Node(data);
 		if (head == null) {
 			head = newNode;
@@ -94,11 +93,9 @@ public class LinkList {
 	}
 	
 	public void reverseIterate() {
-		
 		if(head == null || head.next == null) {
 			return ;
 		}
-		
 		Node prevNode = head;
 		Node currentNode = head.next;
 		while(currentNode != null) {
@@ -113,6 +110,17 @@ public class LinkList {
 		head.next = null;
 		head = prevNode;
 	}
+
+	public Node reverseRecursive(Node head){
+		if(head == null || head.next == null){
+			return head;
+		}
+			Node newHead =  reverseRecursive(head.next);
+			head.next.next = head;
+			head.next = null;
+
+			return newHead;
+	}
 	
 
 	public int getSize() {
@@ -120,22 +128,19 @@ public class LinkList {
 	}
 
 	public static void main(String[] args) {
-		LinkList list = new LinkList();
-		list.addFirst("we");
-		list.addFirst("are");
-		list.addLast("java");
-		list.addLast("programmer");
-		list.addFirst("Here");
-		list.printList();
-		list.deleteFirst();
 
-		list.deleteLast();
+		LinkList list = new LinkList();
+		list.addLast(1);
+		list.addLast(2);
+		list.addLast(3);
+		list.addLast(4);
 		list.printList();
-		list.getSize();
-		System.out.println(list.getSize());
-		
-		
-		list.reverseIterate();
+
+		list.head = list.reverseRecursive(list.head);
 		list.printList();
+
+
 	}
+
+
 }

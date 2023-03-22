@@ -1,4 +1,4 @@
-
+package src;
 //sum of natural numbers
 
 public class Sum_OfNaturalNumber {

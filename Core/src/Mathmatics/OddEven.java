@@ -1,4 +1,4 @@
-package Mathmatics;
+package src.Mathmatics;
 
 import java.util.Scanner;
 
