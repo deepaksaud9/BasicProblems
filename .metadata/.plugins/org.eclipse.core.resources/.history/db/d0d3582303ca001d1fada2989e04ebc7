@@ -1,0 +1,16 @@
+package practise;
+
+public class ReverseString {
+	
+	public static void reverse(String str) {
+		
+	}
+	
+
+	public static void main(String[] args) {
+		String str = "hello world";
+		
+		 reverse(str); 
+		
+	}
+}

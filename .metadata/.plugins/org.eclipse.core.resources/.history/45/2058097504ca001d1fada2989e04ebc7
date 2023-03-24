@@ -1,0 +1,24 @@
+package practise;
+
+import stringQuestions.StringLength;
+
+public class ReverseString {
+	public static void main(String[] args) {
+		String str = "hello world";
+		char [] str1 = str.toCharArray();
+		
+		int start = 0;
+		int end = str1.length-1;
+		while(start<end) {
+			char temp = str1[start];
+			str1[start] = str1[end];
+			str1[end] = temp;
+			start++;
+			end--;
+		}
+		for (char print : str1 ) {
+		System.out.print(print);
+		
+	}
+}
+}

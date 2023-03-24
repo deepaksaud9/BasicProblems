@@ -1,0 +1,22 @@
+package practise;
+
+public class ReverseString {
+	
+//	public static void reverse(String str) {
+//		
+//		for(int i = str.length();i>=0;i--) {
+//			
+//		}
+//	}
+	
+
+	public static void main(String[] args) {
+		String str = "hello world";
+		char [] str1 = str.toCharArray();
+	
+		for(int i = str1.length-1; i>=0;i++) {
+			
+		}
+		
+	}
+}
